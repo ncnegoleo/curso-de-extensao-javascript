@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Calculadora</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+
+    <table>
+    <tbody>
+      <tr>
+        <td colspan="4"><input id="visor" type="text" disabled/></td>
+      </tr>
+      <tr>
+        <td><input id="ce" onclick="limpar()" type="button" value="CE"></td>
+        <td><input id="pow" onclick="potencia()" type="button" value="X&#178;"></td>
+        <td><input id="rzq" onclick="raiz()" type="button" value="&#178;&#8730;"></td>
+      </tr>
+      <tr>
+        <td><input onclick="atribuir(7)" type="button" value="7"></td>
+        <td><input onclick="atribuir(8)" type="button" value="8"></td>
+        <td><input onclick="atribuir(9)" type="button" value="9"></td>
+        <td><input  onclick="atribuir('/')" type="button" value="&divide;"></td>
+      </tr>
+      <tr>
+        <td><input onclick="atribuir(4)" type="button" value="4"></td>
+        <td><input onclick="atribuir(5)" type="button" value="5"></td>
+        <td><input onclick="atribuir(6)" type="button" value="6"></td>
+        <td><input onclick="atribuir('*')" type="button" value="&times;"></td>
+      </tr>
+      <tr>
+        <td><input onclick="atribuir(1)" type="button" value="1"></td>
+        <td><input onclick="atribuir(2)" type="button" value="2"></td>
+        <td><input onclick="atribuir(3)" type="button" value="3"></td>
+        <td><input onclick="atribuir('-')" type="button" value="&minus;"></td>
+      </tr>
+      <tr>
+        <td><input onclick="atribuir(0)" type="button" value="0"></td>
+        <td><input onclick="atribuir('.')" type="button" value="."></td>
+        <td><input onclick="calcular()" type="button" style="background: orange" value="="></td>
+        <td><input onclick="atribuir('+')" type="button" value="+"></td>
+      </tr>
+    </tbody>
+    </table> 
+
+    <script src="index.js"></script>
+  </body>
+</html>
