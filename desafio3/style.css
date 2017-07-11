@@ -1,0 +1,42 @@
+html, body, ul, ol, li, form, fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+}
+
+.container {
+	width: 350px;
+	min-height: 200px;
+	border: 1px solid black;
+	margin: 50px auto;
+	padding: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container h1 {
+	text-align: center;
+}
+
+input {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 11pt;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+	width: 100%;
+	display: block;
+}
+
+input[type="button"] {
+	text-align: right;
+}
+
+p {
+	font-size: 10pt;
+	color: red;
+	margin: 0;
+}
